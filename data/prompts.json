@@ -1,0 +1,17 @@
+
+[
+  {
+    "id": 1,
+    "title": "Blog Post Generator",
+    "description": "Generate a 1000-word blog post on a topic",
+    "category": "ChatGPT",
+    "prompt": "Write a 1000-word blog post on the benefits of daily meditation."
+  },
+  {
+    "id": 2,
+    "title": "MidJourney Fantasy",
+    "description": "Create a fantasy character in MidJourney",
+    "category": "MidJourney",
+    "prompt": "/imagine prompt: a mystical elf warrior with glowing eyes in a foggy forest"
+  }
+]
