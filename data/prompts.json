@@ -1,17 +1,142 @@
-
 [
   {
     "id": 1,
-    "title": "Blog Post Generator",
-    "description": "Generate a 1000-word blog post on a topic",
+    "title": "Startup Pitch Generator",
+    "description": "Craft a 1-minute elevator pitch for a tech startup",
     "category": "ChatGPT",
-    "prompt": "Write a 1000-word blog post on the benefits of daily meditation."
+    "prompt": "Write a 1-minute elevator pitch for a startup that uses AI to personalize online learning."
   },
   {
     "id": 2,
-    "title": "MidJourney Fantasy",
-    "description": "Create a fantasy character in MidJourney",
+    "title": "Fantasy World Builder",
+    "description": "Generate a detailed fantasy world setting",
+    "category": "ChatGPT",
+    "prompt": "Describe a fictional fantasy world including its geography, history, and magic system."
+  },
+  {
+    "id": 3,
+    "title": "MidJourney Neon Samurai",
+    "description": "Create a futuristic samurai in a neon-lit city",
     "category": "MidJourney",
-    "prompt": "/imagine prompt: a mystical elf warrior with glowing eyes in a foggy forest"
+    "prompt": "/imagine prompt: futuristic neon samurai in a rain-soaked Tokyo alleyway --v 5 --ar 16:9"
+  },
+  {
+    "id": 4,
+    "title": "DALLE Logo Creator",
+    "description": "Generate a clean tech startup logo",
+    "category": "DALLE",
+    "prompt": "minimalist logo for a green tech startup, flat design, white background"
+  },
+  {
+    "id": 5,
+    "title": "Claude’s Book Summary",
+    "description": "Summarize any non-fiction book in 5 key points",
+    "category": "Claude",
+    "prompt": "Summarize 'Atomic Habits' by James Clear into 5 key insights."
+  },
+  {
+    "id": 6,
+    "title": "Blog SEO Title Ideas",
+    "description": "Give 10 SEO-friendly blog title ideas",
+    "category": "ChatGPT",
+    "prompt": "Generate 10 catchy and SEO-optimized blog titles for a post about productivity tips."
+  },
+  {
+    "id": 7,
+    "title": "MidJourney Sci-Fi Planet",
+    "description": "Design an alien planet for a sci-fi setting",
+    "category": "MidJourney",
+    "prompt": "/imagine prompt: an alien desert planet with twin suns and ancient ruins --v 5 --ar 3:2"
+  },
+  {
+    "id": 8,
+    "title": "Social Media Caption Bot",
+    "description": "Create IG captions for a coffee brand",
+    "category": "ChatGPT",
+    "prompt": "Write 5 Instagram captions for a luxury coffee brand targeting Gen Z."
+  },
+  {
+    "id": 9,
+    "title": "React Bug Finder",
+    "description": "Debug a common React error",
+    "category": "ChatGPT",
+    "prompt": "Fix the error: 'Cannot read property 'map' of undefined' in a React component."
+  },
+  {
+    "id": 10,
+    "title": "Claude x LinkedIn Bio",
+    "description": "Create a professional LinkedIn bio",
+    "category": "Claude",
+    "prompt": "Write a LinkedIn bio for a junior web developer who just graduated and freelanced for 6 months."
+  },
+  {
+    "id": 11,
+    "title": "AI Cold Email Writer",
+    "description": "Write a cold email to pitch a SaaS tool",
+    "category": "ChatGPT",
+    "prompt": "Write a short, engaging cold email pitching a productivity SaaS tool to startup founders."
+  },
+  {
+    "id": 12,
+    "title": "MidJourney Cyberpunk Chef",
+    "description": "Imagine a chef in a cyberpunk setting",
+    "category": "MidJourney",
+    "prompt": "/imagine prompt: cyberpunk street chef grilling neon meat on a floating cart --v 5 --ar 4:3"
+  },
+  {
+    "id": 13,
+    "title": "DALLE App Icon",
+    "description": "Generate a clean, colorful app icon",
+    "category": "DALLE",
+    "prompt": "simple flat mobile app icon for a finance tracker app, modern, gradient colors"
+  },
+  {
+    "id": 14,
+    "title": "Startup Name Ideas",
+    "description": "Generate names for a fintech startup",
+    "category": "ChatGPT",
+    "prompt": "Give 10 name ideas for a fintech startup that helps Gen Z manage money better."
+  },
+  {
+    "id": 15,
+    "title": "Claude Twitter Thread",
+    "description": "Create a 7-tweet thread on AI tools",
+    "category": "Claude",
+    "prompt": "Write a 7-tweet Twitter thread about how Gen Z can use AI tools to earn online."
+  },
+  {
+    "id": 16,
+    "title": "MidJourney Haunted Castle",
+    "description": "Generate a haunted castle scene",
+    "category": "MidJourney",
+    "prompt": "/imagine prompt: ancient haunted castle on a cliff, thunderstorm, dark skies --v 5 --ar 16:9"
+  },
+  {
+    "id": 17,
+    "title": "Claude UX Case Study",
+    "description": "Summarize a UX redesign process",
+    "category": "Claude",
+    "prompt": "Write a UX case study summary for redesigning a food delivery app."
+  },
+  {
+    "id": 18,
+    "title": "DALLE Tattoo Design",
+    "description": "Design a tribal animal tattoo",
+    "category": "DALLE",
+    "prompt": "black ink tribal lion tattoo design, symmetrical, clean lines"
+  },
+  {
+    "id": 19,
+    "title": "Code Explainer",
+    "description": "Explain what this Python code does",
+    "category": "ChatGPT",
+    "prompt": "Explain the purpose and logic of the following Python function:\n```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n```"
+  },
+  {
+    "id": 20,
+    "title": "Claude Content Strategy",
+    "description": "Build a content strategy for a YouTuber",
+    "category": "Claude",
+    "prompt": "Create a content strategy plan for a tech YouTuber aiming to grow from 1k to 10k subs in 3 months."
   }
 ]
